@@ -5,3 +5,6 @@ __pycache__/
 *.pyd
 .env
 *.log
+
+# claude
+.claude/

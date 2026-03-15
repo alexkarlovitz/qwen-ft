@@ -2,7 +2,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, TextIteratorStream
 from threading import Thread
 import torch
 
-MODEL_PATH = "D:/qwen3.5-2b"
+MODEL_PATH = "D:/models/qwen3.5-2b"
 
 print("Loading model...")
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
